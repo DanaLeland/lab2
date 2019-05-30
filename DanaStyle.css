@@ -1,0 +1,60 @@
+body{
+  font:15px/1.5 Arial, Helvetica, Comic;
+  padding:0;
+  margin:0;
+  background-color:#c5e7d7;
+}
+.containHeader{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+header{
+  background:#f8f8f8;
+  color:#000000;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#c5e7d7 3px solid;
+}
+header a{
+  color:#000000;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:16px;
+}
+
+header ul{
+  margin:0;
+  padding:0;
+}
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #logo{
+  float:left;
+}
+header #logo h1{
+  margin:0;
+}
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+#imagebackground{
+  min-height:400px;
+  background:url('file:///C:/Users/mypc/Desktop/Website/backgroundHome.PNG') no-repeat<!--change placement of image here-->;
+  text-align:center;
+  color:#f84c72;
+}
+#imagebackground h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+#showcase p{
+  font-size:20px;
+}
