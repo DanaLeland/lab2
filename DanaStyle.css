@@ -9,6 +9,40 @@ body{
   margin:auto;
   overflow:hidden;
 }
+
+.boxes{
+  margin:auto;
+}
+
+.memes{
+  padding: 0 80px 0 80px;
+}
+
+.songs{
+  padding: 0 0 0 50px;
+}
+
+.tips{
+    font-size:50px;
+    font-variant: small-caps;
+    font:sans-serif;
+    color:white;
+  }
+
+
+
+.words{
+  font:60px/1.5 Courier;
+  padding: 0 80px 0 80px;
+  color:black;
+}
+.primary{
+  font:60px/.03 Courier;
+}
+.pron{
+  font:30px/.03 Courier;
+  color:black;
+}
 header{
   background:#f8f8f8;
   color:#000000;
@@ -46,7 +80,8 @@ header nav{
 
 #imagebackground{
   min-height:400px;
-  background:url('file:///C:/Users/mypc/Desktop/Website/backgroundHome.PNG') no-repeat<!--change placement of image here-->;
+  /*background:url('file:///C:/Users/mypc/Desktop/Website/backgroundHome.PNG') no-repeat<!--change placement of image here-->;*/
+  background-image: url("file:///C:/Users/mypc/Desktop/Website/backgroundHome.PNG") no-repeat;
   text-align:center;
   color:#f84c72;
 }
@@ -57,4 +92,8 @@ header nav{
 }
 #showcase p{
   font-size:20px;
+}
+
+#boxes img{
+  float:right;
 }
